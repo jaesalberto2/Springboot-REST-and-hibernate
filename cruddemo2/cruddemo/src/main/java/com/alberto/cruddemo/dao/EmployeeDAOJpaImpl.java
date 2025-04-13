@@ -49,7 +49,6 @@ public class EmployeeDAOJpaImpl implements EmployeeDAO{
         // if the id is 0, then this is a new employee
 
         Employee dbEmployee = entityManager.merge(theEmployee);
-
         // Return the employee with the generated id
 
         // if the employee is new, the id will be 0
