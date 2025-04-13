@@ -1,0 +1,35 @@
+2025-04-10T11:19:43.354-06:00  INFO 11716 --- [restartedMain] c.a.s.d.mycoolapp.MycoolappApplication   : Starting MycoolappApplication using Java 23.0.2 with PID 11716 (C:\Users\ALBERTO\Documents\herramientas\Springboot\Programas\04-ComandLine-demo\mycoolapp\target\classes started by ALBERTO in C:\Users\ALBERTO\Documents\herramientas\Springboot\Programas\04-ComandLine-demo)
+2025-04-10T11:19:43.359-06:00  INFO 11716 --- [restartedMain] c.a.s.d.mycoolapp.MycoolappApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T11:19:43.520-06:00  INFO 11716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-10T11:19:43.524-06:00  INFO 11716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-10T11:19:45.559-06:00  INFO 11716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2025-04-10T11:19:45.581-06:00  INFO 11716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T11:19:45.581-06:00  INFO 11716 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-04-10T11:19:45.701-06:00  INFO 11716 --- [restartedMain] o.a.c.c.C.[.[localhost].[/mycoolapp]     : Initializing Spring embedded WebApplicationContext
+2025-04-10T11:19:45.701-06:00  INFO 11716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2175 ms
+2025-04-10T11:19:46.089-06:00 DEBUG 11716 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-10T11:19:46.231-06:00 DEBUG 11716 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-04-10T11:19:46.268-06:00 DEBUG 11716 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-04-10T11:19:46.279-06:00 DEBUG 11716 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-10T11:19:46.379-06:00  INFO 11716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T11:19:46.427-06:00  INFO 11716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/mycoolapp'
+2025-04-10T11:19:46.441-06:00  INFO 11716 --- [restartedMain] c.a.s.d.mycoolapp.MycoolappApplication   : Started MycoolappApplication in 3.992 seconds (process running for 5.18)
+2025-04-10T11:20:24.907-06:00  INFO 11716 --- [http-nio-8081-exec-5] o.a.c.c.C.[.[localhost].[/mycoolapp]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10T11:20:24.909-06:00  INFO 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-10T11:20:24.910-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-04-10T11:20:24.910-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-04-10T11:20:24.910-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-04-10T11:20:24.913-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6d67cec0
+2025-04-10T11:20:24.913-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@c3b9e84
+2025-04-10T11:20:24.913-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-10T11:20:24.913-06:00  INFO 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-04-10T11:20:24.932-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/mycoolapp/", parameters={}
+2025-04-10T11:20:24.959-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.alberto.springboot.demo.mycoolapp.rest.FunRestController#sayHello()
+2025-04-10T11:20:25.004-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-04-10T11:20:25.005-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World"]
+2025-04-10T11:20:25.015-06:00 DEBUG 11716 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-04-10T11:20:44.262-06:00 DEBUG 11716 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/mycoolapp/teaminfo", parameters={}
+2025-04-10T11:20:44.264-06:00 DEBUG 11716 --- [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.alberto.springboot.demo.mycoolapp.rest.FunRestController#getTeamInfo()
+2025-04-10T11:20:44.267-06:00 DEBUG 11716 --- [http-nio-8081-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2025-04-10T11:20:44.268-06:00 DEBUG 11716 --- [http-nio-8081-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Coach: Mickey Mouse, Team: The Mouse Club"]
+2025-04-10T11:20:44.269-06:00 DEBUG 11716 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
